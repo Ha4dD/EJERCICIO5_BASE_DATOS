@@ -113,3 +113,11 @@ INSERT INTO usuario_playlist (id_usuario, id_playlist) VALUES
 (3,3),
 (4,4),
 (5,5);
+
+UPDATE artista SET nombre = "hadd" WHERE id_artista = 1;
+UPDATE artista SET nombre = "tebi" WHERE id_artista = 3;
+UPDATE artista SET nombre = "byboli" WHERE id_artista = 2;
+
+DELETE FROM artista WHERE id_artista = 1;
+DELETE FROM album WHERE id_album = 2;
+DELETE FROM cancion WHERE id_cancion= 3;
